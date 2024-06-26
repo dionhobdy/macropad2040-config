@@ -8,22 +8,22 @@ app = {                    # REQUIRED dict, must be named 'app'
     'macros' : [           # List of button macros...
         # COLOR    LABEL    KEY SEQUENCE
         # 1st row ----------
-        (0x000000, 'Kill', [0.2, Keycode.ALT, Keycode.F4]),
-        (0x000000, 'Minimize', [Keycode.WINDOWS, Keycode.PAGE_DOWN]),
-        (0x000000, 'Mute', [[ConsumerControlCode.MUTE]]),
+        (0x6E6CF8, 'Kill', [0.2, Keycode.ALT, Keycode.F4]),
+        (0x6E6CF8, 'Minimize', [Keycode.WINDOWS, Keycode.PAGE_DOWN]),
+        (0x6E6CF8, 'Mute', [[ConsumerControlCode.MUTE]]),
         # 2nd row ----------
-        (0x000000, 'Prev', [[ConsumerControlCode.SCAN_PREVIOUS_TRACK]]),
-        (0x000000, 'Play/Pause', [ConsumerControlCode.PLAY_PAUSE]),
-        (0x000000, 'Next', [[ConsumerControlCode.SCAN_NEXT_TRACK]]),
+        (0xAC93FB, 'Prev', [[ConsumerControlCode.SCAN_PREVIOUS_TRACK]]),
+        (0xAC93FB, 'Play/Pause', [ConsumerControlCode.PLAY_PAUSE]),
+        (0xAC93FB, 'Next', [[ConsumerControlCode.SCAN_NEXT_TRACK]]),
         # 3rd row ----------
-        (0x000000, 'Repeat', [Keycode.CONTROL, 'r']),
-        (0x000000, 'Shuffle', [Keycode.CONTROL, 's']), 
-        (0x000000, 'Like', [Keycode.ALT, Keycode.SHIFT, 'b']), #Like current song playing
+        (0xF2F2FF, 'Repeat', [Keycode.CONTROL, 'r']),
+        (0xF2F2FF, 'Shuffle', [Keycode.CONTROL, 's']), 
+        (0xF2F2FF, 'Like', [Keycode.ALT, Keycode.SHIFT, 'b']), #Like current song playing
         # 4th row ----------
-        (0x000000, 'Queue', [Keycode.ALT, Keycode.SHIFT, 'q']),   # Queue
-        (0x000000, 'Home', [Keycode.ALT, Keycode.SHIFT, 'h']),   # Home
-        (0x000000, 'Liked', [Keycode.ALT, Keycode.SHIFT, 's']),  # Liked songs library
+        (0x407691, 'Queue', [Keycode.ALT, Keycode.SHIFT, 'q']),   # Queue
+        (0x407691, 'Home', [Keycode.ALT, Keycode.SHIFT, 'h']),   # Home
+        (0x407691, 'Liked', [Keycode.ALT, Keycode.SHIFT, 's']),  # Liked songs library
         # Encoder button ---
-        (0xe50e00, 'SOUND', []) 
+        (0xFFFFFFf, 'SOUND', []) 
     ]
 }
