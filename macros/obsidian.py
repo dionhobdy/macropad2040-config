@@ -5,7 +5,7 @@ from adafruit_hid.keycode import Keycode # REQUIRED if using Keycode.* values
 from adafruit_hid.consumer_control_code import ConsumerControlCode
 
 app = {                    # REQUIRED dict, must be named 'app'
-    'name' : 'Obsidian v1.1.9',  # Application name
+    'name' : 'obsidian',  # Application name
     'macros' : [           # List of button macros...
         # COLOR    LABEL    KEY SEQUENCE
         # 1st row ----------
