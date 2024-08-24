@@ -1,7 +1,7 @@
 from adafruit_hid.keycode import Keycode
 
 app = {
-    'name': 'misc',
+    'name': 'sleep mode',
     'macros': [
         # row 1
         (0x6E6CF8, '', ['']),
